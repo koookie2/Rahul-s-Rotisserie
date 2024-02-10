@@ -14,6 +14,20 @@
   width: 400px
 }
 
+.count {
+  margin-top: 210px;
+  margin-left: 660px;
+  background-color: rgb(182, 95, 8);
+  color: peachpuff;
+  width: 100px;
+  text-align: center;
+  font-family: Bowlby One SC;
+  font-size: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 4px;
+
+}
+
 .content {
   height: 100vh;
 }
