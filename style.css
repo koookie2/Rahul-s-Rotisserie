@@ -1,22 +1,13 @@
-.ravioli {
-  border: 5px solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.heading {
-  margin: auto;
-  font-size: 50px;
-  font-family: Bowlby One SC;
-  background-color: blueviolet;
-  color: white;
-  width: 400px
+body {
+  margin: 0;
+  background-image: url('background2.png');
+  background-size: 100%;
 }
 
 .count {
-  margin-top: 210px;
-  margin-left: 660px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 800px;
   background-color: rgb(182, 95, 8);
   color: peachpuff;
   width: 100px;
@@ -25,28 +16,6 @@
   font-size: 40px;
   border-radius: 20px;
   box-shadow: 5px 4px;
-
-}
-
-.content {
-  height: 100vh;
-}
-
-body {
-  /* justify-content: center; */
-  margin: 0;
-  background-image: url('background2.png');
-  background-size: 100%;
-}
-
-.back-img {
-  display: flex;
-  justify-content: center;
-}
-
-.button {
-  position: relative; 
-  margin-top: 0;
 }
 
 .button1 {
@@ -56,9 +25,15 @@ body {
   width: 152px;
   height: 8.24%;
   border-radius: 10px;
-  opacity: 0;
+  opacity: 1;
+  background-color: rgb(182, 95, 8);
+  font-size: 20px;
+  text-align: center;
+  color: peachpuff;
   cursor: pointer;
+  border: 0;
 }
+
 .button2 {
   position: fixed;
   margin-top: 6.58%;
@@ -66,8 +41,13 @@ body {
   width: 162px;
   height: 8.24%;
   border-radius: 10px;
-  opacity: 0;
+  opacity: 1;
+  background-color: rgb(182, 95, 8);
+  font-size: 20px;
+  text-align: center;
+  color: peachpuff;
   cursor: pointer;
+  border: 0;
 }
 
 .button3 {
@@ -77,8 +57,13 @@ body {
   width: 150px;
   height: 8.24%;
   border-radius: 10px;
-  opacity: 0;
+  opacity: 1;
+  background-color: rgb(182, 95, 8);
+  font-size: 20px;
+  text-align: center;
+  color: peachpuff;
   cursor: pointer;
+  border: 0;
 }
 
 .button4 {
@@ -88,8 +73,13 @@ body {
   width: 155px;
   height: 8.24%;
   border-radius: 10px;
-  opacity: 0;
+  opacity: 1;
+  background-color: rgb(182, 95, 8);
+  font-size: 20px;
+  text-align: center;
+  color: peachpuff;
   cursor: pointer;
+  border: 0;
 }
 
 .button5 {
@@ -99,8 +89,13 @@ body {
   width: 145px;
   height: 8.24%;
   border-radius: 10px;
-  opacity: 0;
+  opacity: 1;
+  background-color: rgb(182, 95, 8);
+  font-size: 20px;
+  text-align: center;
+  color: peachpuff;
   cursor: pointer;
+  border: 0;
 }
 
 .button6 {
@@ -110,8 +105,13 @@ body {
   width: 135px;
   height: 8.24%;
   border-radius: 10px;
-  opacity: 0;
+  opacity: 1;
+  background-color: rgb(182, 95, 8);
+  font-size: 20px;
+  text-align: center;
+  color: peachpuff;
   cursor: pointer;
+  border: 0;
 }
 
 .button7 {
@@ -121,8 +121,13 @@ body {
   width: 126px;
   height: 8.24%;
   border-radius: 10px;
-  opacity: 0;
+  opacity: 1;
+  background-color: rgb(182, 95, 8);
+  font-size: 20px;
+  text-align: center;
+  color: peachpuff;
   cursor: pointer;
+  border: 0;
 }
 
 .main_button {
@@ -137,56 +142,26 @@ body {
 }
 
 
-/* Side Navigation Menu */
 .side-nav {
+  margin-top: 7px;
   height: 92.5%;
   width: 0;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   position: fixed;
   z-index: 1;
-  margin-top: 7px;
-  /* left: 0; */
   background-color:rgb(194, 106, 19);
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
+  /* box-shadow: 5px 4px rgb(170, 144, 122); */
 }
 
-/* The navigation menu links */
-.side-nav a {
+.side-nav img {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
   display: block;
   transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.side-nav a:hover {
-  color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-.side-nav .close-btn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* Style the button that is used to open the side navigation */
-#openBtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-#openBtn:hover {
-  background-color: #444;
 }

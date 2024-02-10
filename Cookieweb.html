@@ -10,35 +10,32 @@
     </head>
     
     <body>
-        <button id="openBtn" class="button1">test</button>
-        <button class="button2">test</button>
-        <button class="button3">test</button>
-        <button class="button4">test</button>
-        <button class="button5">test</button>
-        <button class="button6">test</button>
-        <button class="button7">test</button>
+        <button id="button1" class="button1">BUY FOR 10</button>
+        <button id="button2" class="button2">BUY FOR 100</button>
+        <button id="button3" class="button3">BUY FOR 1000</button>
+        <button id="button4" class="button4">BUY FOR 10000</button>
+        <button id="button5" class="button5">BUY FOR 100000</button>
+        <button id="button6" class="button6">BUY FOR 1000000</button>
+        <button id="button7" class="button7">BUY FOR 10000000</button>
 
-        <button class="main_button">test</button>
+        <button id="main_button" class="main_button">main_button</button>
 
-        <div id="side_menu_1" class="side-nav">
+        <div id="sideMenu1" class="side-nav">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
             <a href="#">Contact</a>
         </div>
-        <p class="count">0</p>
 
-      <script src="counter.js"></script>
-    
-    <script>
-        let counter = 0;
+        <div id="side_menu_2" class="side-nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        
+        <p class="count"> <span id="counter">0</span> </p>
 
-        function incrementCounter() {
-            counter++;
-            document.getElementById("counter").textContent = counter;
-        }
-
-        setInterval(incrementCounter, 1000);
-    </script>
+        <script src="counter.js"></script>
   </body>
 </html>

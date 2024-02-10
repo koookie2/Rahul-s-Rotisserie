@@ -1,12 +1,44 @@
-// alert("Hello");
+let counter = 0;
+let increment = 1;
+let boolean1 = true;
 
-function change_nav() {
-    if (document.getElementById("side_menu_1").style.width == "0px")
-        document.getElementById("side_menu_1").style.width = "250px";
-    else
-        document.getElementById("side_menu_1").style.width = "0px";
+function buy(button, amount) {
+    if (counter >= amount) {
+        document.getElementById(button).style.opacity = 0;
+        
+        boolean1 = false;
+        counter -= amount;
+        document.getElementById("counter").textContent = counter;
+    }
 }
 
-document.getElementById("openBtn").onclick = function() {
-    change_nav();
+function change_nav(button) {
+    if (document.getElementById(button).style.width == "0px")
+        document.getElementById(button).style.width = "250px";
+    else
+        document.getElementById(button).style.width = "0px";
+}
+
+document.getElementById("button1").onclick = function() {
+    if (boolean1)
+        buy("button1", 10);
+    else
+        change_nav();
+}
+
+document.getElementById("button2").onclick = function() {
+    if (boolean2)
+        buy(100);
+    else
+        change_nav();
+}
+
+
+function incrementCounter() {
+    counter += increment;
+    document.getElementById("counter").textContent = counter;
+}
+
+document.getElementById("main_button").onclick = function() {
+    incrementCounter();
 }
