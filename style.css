@@ -13,10 +13,24 @@
   color: white;
   width: 400px
 }
+.count {
+  margin-top: 210px;
+  margin-left: 660px;
+  background-color: rgb(182, 95, 8);
+  color: peachpuff;
+  width: 100px;
+  text-align: center;
+  font-family: Bowlby One SC;
+  font-size: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 4px;
+
+}
 
 .content {
-  height: 100vh;
+  height: 100px;
 }
+
 
 body {
   /* justify-content: center; */
@@ -37,87 +51,76 @@ body {
 
 .button1 {
   position: fixed;
-  margin-top: 6.58%;
+  margin-top: 114px;
   margin-left: 308px;
   width: 152px;
-  height: 8.24%;
+  height: 80px;
   border-radius: 10px;
-  opacity: 0;
+  /* opacity: 0; */
   cursor: pointer;
 }
 .button2 {
   position: fixed;
-  margin-top: 6.58%;
+  margin-top: 114px;
   margin-left: 478px;
   width: 162px;
-  height: 8.24%;
+  height: 80px;
   border-radius: 10px;
-  opacity: 0;
+  /* opacity: 0; */
   cursor: pointer;
 }
 
 .button3 {
   position: fixed;
-  margin-top: 6.58%;
+  margin-top: 114px;
   margin-left: 662px;
   width: 150px;
-  height: 8.24%;
+  height: 80px;
   border-radius: 10px;
-  opacity: 0;
+  /* opacity: 0; */
   cursor: pointer;
 }
 
 .button4 {
   position: fixed;
-  margin-top: 6.58%;
+  margin-top: 114px;
   margin-left: 833px;
   width: 155px;
-  height: 8.24%;
+  height: 80px;
   border-radius: 10px;
-  opacity: 0;
+  /* opacity: 0; */
   cursor: pointer;
 }
 
 .button5 {
   position: fixed;
-  margin-top: 6.58%;
+  margin-top: 114px;
   margin-left: 1009px;
   width: 145px;
-  height: 8.24%;
+  height: 80px;
   border-radius: 10px;
-  opacity: 0;
+  /* opacity: 0; */
   cursor: pointer;
 }
 
 .button6 {
   position: fixed;
-  margin-top: 6.58%;
+  margin-top: 114px;
   margin-left: 1167px;
   width: 135px;
-  height: 8.24%;
+  height: 80px;
   border-radius: 10px;
-  opacity: 0;
+  /* opacity: 0; */
   cursor: pointer;
 }
 
 .button7 {
   position: fixed;
-  margin-top: 6.58%;
+  margin-top: 114px;
   margin-left: 1307px;
   width: 126px;
-  height: 8.24%;
+  height: 80px;
   border-radius: 10px;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.main_button {
-  position: fixed;
-  margin-top: 380px;
-  margin-left: 660px;
-  width: 390px;
-  height: 250px;
-  border-radius: 50%;
-  opacity: 0;
+  /* opacity: 0; */
   cursor: pointer;
 }
