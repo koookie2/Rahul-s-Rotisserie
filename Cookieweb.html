@@ -15,13 +15,13 @@
             <h1>Rahul's Ravioli</h1>
         </div>
         <div class="ravioli">
-            <img src="ravioli.png">
+            <img src="ravioli.png" onclick="autoIncrement()" >
         </div>
     </div>
   <body>
     <p>Counter: <span id="counter">0</span></p>
 
-    <button onclick="incrementCounter()">Click Me</button>
+    <!-- <button onclick="incrementCounter()">Click Me</button> -->
 
     <script>
         let counter = 0;
@@ -30,6 +30,8 @@
             counter++; // Increment the counter
             document.getElementById("counter").textContent = counter; // Update the display
         }
+
+        setInterval(incrementCounter, 1000);
     </script>
   </body>
 </html>
