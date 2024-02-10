@@ -15,3 +15,17 @@
 
 
 }
+
+.content {
+  height: 100vh;
+}
+
+body {
+  justify-content: center;
+  margin: 0;
+}
+
+.back-img {
+  display: flex;
+  justify-content: center;
+}
