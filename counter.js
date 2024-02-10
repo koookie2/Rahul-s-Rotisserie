@@ -1,4 +1,4 @@
-alert("Hello");
+// alert("Hello");
 
 function change_nav() {
     if (document.getElementById("side_menu_1").style.width == "0px")
