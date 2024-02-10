@@ -1,5 +1,5 @@
 let counter = 0;
-let increment = 1;
+let increment = 10;
 let boolean1 = true;
 
 function buy(button, amount) {
@@ -23,12 +23,12 @@ document.getElementById("button1").onclick = function() {
     if (boolean1)
         buy("button1", 10);
     else
-        change_nav();
+        change_nav("sideMenu1");
 }
 
 document.getElementById("button2").onclick = function() {
     if (boolean2)
-        buy(100);
+        buy("button2", 100);
     else
         change_nav();
 }
