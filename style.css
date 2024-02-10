@@ -1,19 +1,17 @@
 .ravioli {
-    border: 5px solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  border: 5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
 .heading {
-    margin: auto;
-    font-size: 50px;
-    font-family: Bowlby One SC;
-    background-color: blueviolet;
-    color: white;
-    width: 400px
-
-
+  margin: auto;
+  font-size: 50px;
+  font-family: Bowlby One SC;
+  background-color: blueviolet;
+  color: white;
+  width: 400px
 }
 
 .content {
@@ -21,11 +19,94 @@
 }
 
 body {
-  justify-content: center;
+  /* justify-content: center; */
   margin: 0;
+  background-image: url('background2.png');
+  background-size: 100%;
 }
 
 .back-img {
   display: flex;
   justify-content: center;
+}
+
+.button {
+  position: relative; 
+  margin-top: 0;
+}
+
+.button1 {
+  position: fixed;
+  margin-top: 114px;
+  margin-left: 308px;
+  width: 152px;
+  height: 80px;
+  border-radius: 10px;
+  /* opacity: 0; */
+  cursor: pointer;
+}
+.button2 {
+  position: fixed;
+  margin-top: 114px;
+  margin-left: 478px;
+  width: 162px;
+  height: 80px;
+  border-radius: 10px;
+  /* opacity: 0; */
+  cursor: pointer;
+}
+
+.button3 {
+  position: fixed;
+  margin-top: 114px;
+  margin-left: 662px;
+  width: 150px;
+  height: 80px;
+  border-radius: 10px;
+  /* opacity: 0; */
+  cursor: pointer;
+}
+
+.button4 {
+  position: fixed;
+  margin-top: 114px;
+  margin-left: 833px;
+  width: 155px;
+  height: 80px;
+  border-radius: 10px;
+  /* opacity: 0; */
+  cursor: pointer;
+}
+
+.button5 {
+  position: fixed;
+  margin-top: 114px;
+  margin-left: 1009px;
+  width: 145px;
+  height: 80px;
+  border-radius: 10px;
+  /* opacity: 0; */
+  cursor: pointer;
+}
+
+.button6 {
+  position: fixed;
+  margin-top: 114px;
+  margin-left: 1167px;
+  width: 135px;
+  height: 80px;
+  border-radius: 10px;
+  /* opacity: 0; */
+  cursor: pointer;
+}
+
+.button7 {
+  position: fixed;
+  margin-top: 114px;
+  margin-left: 1307px;
+  width: 126px;
+  height: 80px;
+  border-radius: 10px;
+  /* opacity: 0; */
+  cursor: pointer;
 }
