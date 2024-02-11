@@ -19,12 +19,11 @@ function buy(button, amount, boolean) {
 function change_nav(button) {
 
     if (document.getElementById(button).style.width == "0px") {
-        for (let i = 0; i < sideMenus.length; i++) 
-            if(!(sideMenus[i] == button)) {
+        for (let i = 0; i < sideMenus.length; i++) {
+            if(!(sideMenus[i] == button))
                 document.getElementById(sideMenus[i]).style.width = "0px";
-                console.log("hello"); 
-            }  
-            document.getElementById(button).style.width = "250px";
+        }  
+        document.getElementById(button).style.width = "250px";
     } 
         
     else
@@ -96,7 +95,7 @@ function addPowerUps(x, amount, multiplier) {
         document.getElementById("counter").textContent = Math.round(counter);
 
         increment *= 1+multiplier;
-        document.getElementById("multiplier").textContent = increment.toFixed(2);
+        document.getElementById("multiplier").textContent = "Multiplier " + increment.toFixed(2);
     } else {
         alert("You need " + amount + " coins to buy this!");
     }
