@@ -78,7 +78,7 @@ document.getElementById("main_button").onclick = function() {
 }
 
 function addPowerUps(x) {
-    document.getElementById("item-" + x+1 + "-" + items[x]).style.opacity = 1;
+    document.getElementById("item-" + (x+1) + "-" + items[x]).style.opacity = 1;
     items[x]++;
     
     counter -= 10;
