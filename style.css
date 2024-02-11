@@ -5,6 +5,11 @@ body {
   background-repeat: no-repeat;
 }
 
+
+button {
+  transition: 0.5s;
+}
+
 .count {
   position: absolute;
   margin-top: 260px;
