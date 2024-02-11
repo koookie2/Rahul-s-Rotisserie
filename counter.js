@@ -94,7 +94,7 @@ function addPowerUps(x, amount, multiplier) {
         document.getElementById("counter").textContent = Math.round(counter);
 
         increment *= 1+multiplier;
-        document.getElementById("multiplier").textContent = increment;
+        document.getElementById("multiplier").textContent = increment.toFixed(2);
     }
 }
 
