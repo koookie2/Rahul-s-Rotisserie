@@ -1,12 +1,12 @@
 .parent {
-    margin: auto;
-    padding: 10px 10px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
   }
+  
   .child {
     display: inline-block;
-    height: 1400px;
-    width: 48%;
+    height: 970px;
+    width: 48.5%;
     background-image: url("split1.png");
     background-size: cover;
     background-position-y: -350px;
@@ -16,14 +16,12 @@
     font-family: Bowlby One SC;
     background-color: azure;
     font-size: 50px;
-  }
-  
- 
+  } 
 
   .child1 {
     display: inline-block;
-    height: 1400px;
-    width: 48%;
+    height: 970px;
+    width: 48.5%;
     background-image: url("split2.png");
     background-size: cover;
     background-position-y: -350px;
@@ -36,11 +34,10 @@
 
   }
 
-  .image {
-    height: 50%;
-    width: auto;
-  
-  }
+.image {
+  height: 50%;
+  width: auto;
+}
 
 
   #button1 {
@@ -59,6 +56,7 @@
     border: none;
     z-index: 4;
   }
+  
   #button1:hover {
     box-shadow: 0 12px 16px 0 rgba(12, 12, 12, 0.458), 0 17px 50px 0 rgba(0,0,0,0.19);
     color: rgba(255, 218, 185, 0.7)
@@ -86,4 +84,6 @@
     text-shadow: 2px 2px black;
   }
 
-  
+body {
+  margin: 0;
+}  
