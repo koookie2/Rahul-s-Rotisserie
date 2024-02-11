@@ -1,5 +1,5 @@
 var counter = 0;
-var increment = 100;
+var increment = 1000000000;
 var booleans = [true, true, true, true, true, true, true];
 var items = [1, 1, 1, 1, 1, 1, 1];
 var sideMenus = ["sideMenu1", "sideMenu2", "sideMenu3", "sideMenu4", "sideMenu5", "sideMenu6", "sideMenu7"];
@@ -86,7 +86,7 @@ document.getElementById("main_button").onclick = function() {
 }
 
 function addPowerUps(x) {
-    document.getElementById("item-" + (x+1) + "-" + items[x]).style.opacity = 1;
+    document.getElementById("item-" + x+1 + "-" + items[x]).style.opacity = 1;
     items[x]++;
     
     counter -= 10;
@@ -95,31 +95,31 @@ function addPowerUps(x) {
 
 
 document.getElementById("main_kneader").onclick = function() {
-    addPowerUps(0);
+    addPowerUps(0, 20);
 }
 
 document.getElementById("main_onion").onclick = function() {
-    addPowerUps(1);
+    addPowerUps(1, 200);
 }
 
 document.getElementById("main_pan").onclick = function() {
-    addPowerUps(2);
+    addPowerUps(2, 2000);
 }
 
 document.getElementById("main_heart").onclick = function() {
-    addPowerUps(3);
+    addPowerUps(3, 20000);
 }
 
 document.getElementById("main_dress").onclick = function() {
-    addPowerUps(4);
+    addPowerUps(4, 200000);
 }
 
 document.getElementById("main_lemon").onclick = function() {
-    addPowerUps(5);
+    addPowerUps(5, 2000000);
 }
 
 document.getElementById("main_leaf").onclick = function() {
-    addPowerUps(6);
+    addPowerUps(6, 20000000);
 }
 
 
