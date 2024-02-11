@@ -235,6 +235,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
+  opacity: 0;
 }
 
 .notImplemented2 {
@@ -246,6 +247,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
+  opacity: 0;
 }
 
 .notImplemented3 {
@@ -257,7 +259,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-
+  opacity: 0;
 }
 
 .notImplemented4 {
@@ -269,7 +271,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-
+  opacity: 0;
 }
 
 .notImplemented5 {
@@ -281,7 +283,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-
+  opacity: 0;
 }
 
 .notImplemented6 {
@@ -293,7 +295,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-
+  opacity: 0;
 }
 
 .notImplemented7 {
@@ -305,7 +307,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-
+  opacity: 0;
 }
 
 .notImplemented8 {
@@ -317,7 +319,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-
+  opacity: 0;
 }
 
 .notImplemented9 {
@@ -329,7 +331,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-
+  opacity: 0;
 }
 
 .notImplemented10 {
@@ -341,6 +343,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
+  opacity: 0;
 
 }
 
@@ -353,8 +356,7 @@ h1 {
   border: 0;
   border-radius: 20px;
   cursor: pointer;
-  background-color: peachpuff;
-  opacity: 0.8;
+  opacity: 0;
 }
 
 

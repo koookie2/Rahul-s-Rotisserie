@@ -1,5 +1,5 @@
 var counter = 0;
-var increment = 1000000000;
+var increment = 1;
 var booleans = [true, true, true, true, true, true, true];
 var items = [1, 1, 1, 1, 1, 1, 1];
 var sideMenus = ["sideMenu1", "sideMenu2", "sideMenu3", "sideMenu4", "sideMenu5", "sideMenu6", "sideMenu7"];
@@ -82,46 +82,49 @@ document.getElementById("button7").onclick = function() {
 
 document.getElementById("main_button").onclick = function() {
     counter += increment;
-    document.getElementById("counter").textContent = counter;
+    document.getElementById("counter").textContent = Math.round(counter);
 }
 
-function addPowerUps(x, amount) {
+function addPowerUps(x, amount, multiplier) {
     if (counter >= amount) {
         document.getElementById("item-" + (x+1) + "-" + items[x]).style.opacity = 1;
         items[x]++;
         
         counter -= amount;
-        document.getElementById("counter").textContent = counter;
+        document.getElementById("counter").textContent = Math.round(counter);
+
+        increment *= 1+multiplier;
+        document.getElementById("multiplier").textContent = increment;
     }
 }
 
 
 document.getElementById("main_kneader").onclick = function() {
-    addPowerUps(0, 20);
+    addPowerUps(0, 20, 0.01);
 }
 
 document.getElementById("main_onion").onclick = function() {
-    addPowerUps(1, 200);
+    addPowerUps(1, 200, 0.02);
 }
 
 document.getElementById("main_pan").onclick = function() {
-    addPowerUps(2, 2000);
+    addPowerUps(2, 2000, 0.04);
 }
 
 document.getElementById("main_heart").onclick = function() {
-    addPowerUps(3, 20000);
+    addPowerUps(3, 20000, 0.08);
 }
 
 document.getElementById("main_dress").onclick = function() {
-    addPowerUps(4, 200000);
+    addPowerUps(4, 200000, 0.16);
 }
 
 document.getElementById("main_lemon").onclick = function() {
-    addPowerUps(5, 2000000);
+    addPowerUps(5, 2000000, 0.032);
 }
 
 document.getElementById("main_leaf").onclick = function() {
-    addPowerUps(6, 20000000);
+    addPowerUps(6, 20000000, 0.64);
 }
 
 
