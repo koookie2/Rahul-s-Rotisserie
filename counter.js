@@ -75,3 +75,50 @@ document.getElementById("main_button").onclick = function() {
     counter += increment;
     document.getElementById("counter").textContent = counter;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementById('button-play').addEventListener('click', function() {
+    var childDiv = document.querySelector('.child');
+    var child1Div = document.querySelector('.child1');
+    var containerDiv = document.getElementById('containerDiv');
+    var titleDiv = document.getElementById('title');
+    var parentDiv = document.querySelector('.parent');
+
+    // Slide away animation for child divs
+    childDiv.style.transition = 'transform 1s ease-out';
+    child1Div.style.transition = 'transform 1s ease-out';
+    
+    childDiv.style.transform = 'translateX(-200%)'; // Move child 1 to the left
+    child1Div.style.transform = 'translateX(200%)'; // Move child 2 to the right
+
+    // After child divs animation, slide container div down
+    setTimeout(function() {
+        containerDiv.style.transition = 'transform 1s ease-out';
+        containerDiv.style.transform = 'translateY(100vh)'; // Move container down
+        titleDiv.style.transition = 'opacity 1s ease-out'; // Add fade out transition to title
+        titleDiv.style.opacity = 0; // Make title transparent
+        setTimeout(function() {
+            childDiv.style.display = 'none'; // Hide child div 1
+            child1Div.style.display = 'none'; // Hide child div 2
+            containerDiv.style.display = 'none'; // Hide container div
+            parentDiv.style.display = 'none'; // Hide parent div
+            document.body.style.backgroundColor = 'peachpuff'; // Set background color
+        }, 1000); // Time to wait for title fade out in milliseconds
+    }, 1000); // Time of child divs animation in milliseconds
+});
