@@ -11,6 +11,8 @@ function buy(button, amount, boolean) {
         booleans[boolean] = false;
         counter -= amount;
         document.getElementById("counter").textContent = counter;
+    } else {
+        alert("You need " + amount + " coins to buy this!");
     }
 }
 
@@ -95,6 +97,8 @@ function addPowerUps(x, amount, multiplier) {
 
         increment *= 1+multiplier;
         document.getElementById("multiplier").textContent = increment.toFixed(2);
+    } else {
+        alert("You need " + amount + " coins to buy this!");
     }
 }
 
