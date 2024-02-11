@@ -336,3 +336,22 @@ h1 {
   border: 0;
   border-radius: 20px;
 }
+
+
+.Multiplier {
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 4px;
+  background-color: rgb(182, 95, 8);
+  width: 400px;
+  height: 60px;
+  border-radius: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border: none; 
+  color: peachpuff;
+  font-family: Bowlby One SC;
+  font-size: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
