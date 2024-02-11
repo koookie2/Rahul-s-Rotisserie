@@ -227,7 +227,7 @@ h1 {
 }
 
 .notImplemented1 {
-  position: fixed;
+  position: absolute;
   margin-top: 270px;
   margin-left: 308px;
   width: 137px;
