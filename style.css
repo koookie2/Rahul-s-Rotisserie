@@ -179,6 +179,7 @@ body {
   justify-content: center;
   transition: 0.5s;
   width: 50%;
+  cursor: pointer;
 }
 .side-nav p {
   font: Bowlby One SC;
@@ -198,19 +199,21 @@ h1 {
 }
 
  .shelves {
+  margin-top: 10px;
   display: grid;
   position: absolute; 
   right: 10px;
-  row-gap: 2px;;
+  row-gap: 2px;
 }
 
 .shelves div {
   background-color: rgb(182, 95, 8);
-  height: 100px;
+  height: 135px;
   width: 220px;
   border-radius: 20px;
   border: 2px solid rgba(0, 0, 0, 0.8);
 }
+
 .shelves div img {
-  opacity: 1;
+  opacity: 0;
 }

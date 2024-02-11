@@ -1,6 +1,7 @@
 var counter = 0;
-var increment = 10;
+var increment = 1000000000;
 var booleans = [true, true, true, true, true, true, true];
+var items = [1, 1, 1, 1, 1, 1, 1];
 
 function buy(button, amount, boolean) {
     if (counter >= amount) {
@@ -76,18 +77,42 @@ document.getElementById("main_button").onclick = function() {
     document.getElementById("counter").textContent = counter;
 }
 
+function addPowerUps(x) {
+    document.getElementById("item-" + x+1 + "-" + items[x]).style.opacity = 1;
+    items[x]++;
+    
+    counter -= 10;
+    document.getElementById("counter").textContent = counter;
+}
 
 
+document.getElementById("main_kneader").onclick = function() {
+    addPowerUps(0);
+}
 
+document.getElementById("main_onion").onclick = function() {
+    addPowerUps(1);
+}
 
+document.getElementById("main_pan").onclick = function() {
+    addPowerUps(2);
+}
 
+document.getElementById("main_heart").onclick = function() {
+    addPowerUps(3);
+}
 
+document.getElementById("main_dress").onclick = function() {
+    addPowerUps(4);
+}
 
+document.getElementById("main_lemon").onclick = function() {
+    addPowerUps(5);
+}
 
-
-
-
-
+document.getElementById("main_leaf").onclick = function() {
+    addPowerUps(6);
+}
 
 
 
