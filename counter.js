@@ -1,5 +1,5 @@
 var counter = 0;
-var increment = 10000000;
+var increment = 1;
 var booleans = [true, true, true, true, true, true, true];
 var items = [1, 1, 1, 1, 1, 1, 1];
 var sideMenus = ["sideMenu1", "sideMenu2", "sideMenu3", "sideMenu4", "sideMenu5", "sideMenu6", "sideMenu7"];
