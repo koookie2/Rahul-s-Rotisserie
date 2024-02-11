@@ -2,7 +2,7 @@
     margin: auto;
     padding: 10px 10px;
     text-align: center;
-    background-color: rgb(182, 95, 8);;
+    background-color: rgb(182, 95, 8);
   }
   .child {
     display: inline-block;
@@ -34,8 +34,6 @@
     font-family: Bowlby One SC;
     background-color: azure;
     font-size: 50px;
-  
-
 
   }
 
@@ -51,18 +49,22 @@
     margin-top: -400px;
     margin-left: -70px;
     border-radius: 90%;
-    background-color: azure;
+    background-color: rgb(182, 95, 8);
     /* margin: auto; */
     padding: 24px;
     font-size: 50px;
     transition: 0.3s;
     cursor: pointer;
+    font-family: Bowlby One SC;
+    color: peachpuff;
+    border: none;
   }
   #button1:hover {
     box-shadow: 0 12px 16px 0 rgba(12, 12, 12, 0.458), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: rgba(255, 218, 185, 0.7)
   }
   .container {
-    background-color: rgb(182, 95, 8);;
+    background-color: rgb(182, 95, 8);
     height: 100vh;
     width: 100vw;
     text-align: center;
@@ -78,8 +80,10 @@
     margin-left: 30%;
     padding-top: 30px;
     padding-bottom: 30px;
-    color:brown;
+    color:peachpuff;
     background-color: color-mix(in hsl shorter hue, color percentage, color percentage);
+    font-family: Bowlby One SC;
+    text-shadow: 2px 2px black;
   }
 
   body {
