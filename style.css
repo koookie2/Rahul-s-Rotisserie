@@ -16,12 +16,14 @@ button {
   margin-left: 800px;
   background-color: rgb(182, 95, 8);
   color: peachpuff;
-  width: 100px;
+  width: 200px;
+  height: 40px;
   text-align: center;
   font-family: Bowlby One SC;
-  font-size: 40px;
   border-radius: 20px;
   box-shadow: 5px 4px;
+  font-size: 30px;
+  padding-top: 2px;
 }
 
 .button1 {
