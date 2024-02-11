@@ -122,9 +122,57 @@ document.getElementById("main_lemon").onclick = function() {
 
 document.getElementById("main_leaf").onclick = function() {
     addPowerUps(6, 20000000);
-    alert();
 }
 
-document.getElementById("notImplemented").onclick() = function() {
-    alert();
+
+
+
+
+
+document.getElementById("notImplemented").onclick = function() {
+    alertUpdate(); 
+}
+
+document.getElementById("notImplemented2").onclick = function() {
+    alertUpdate(); 
+}
+
+document.getElementById("notImplemented3").onclick = function() {
+    alertUpdate(); 
+}
+
+
+document.getElementById("notImplemented4").onclick = function() {
+    alertUpdate(); 
+}
+
+document.getElementById("notImplemented5").onclick = function() {
+    alertUpdate(); 
+}
+
+document.getElementById("notImplemented6").onclick = function() {
+    alertUpdate(); 
+}
+
+document.getElementById("notImplemented7").onclick = function() {
+    alertUpdate(); 
+}
+
+document.getElementById("notImplemented8").onclick = function() {
+    alertUpdate(); 
+}
+
+document.getElementById("notImplemented9").onclick = function() {
+    alertUpdate(); 
+}
+document.getElementById("notImplemented10").onclick = function() {
+    alertUpdate(); 
+}
+document.getElementById("notImplemented11").onclick = function() {
+    alertUpdate(); 
+}
+
+
+function alertUpdate() {
+    alert("Special Abilities Will Be Added Next Update");
 }

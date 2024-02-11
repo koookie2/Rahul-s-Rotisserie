@@ -245,6 +245,7 @@ h1 {
   height: 129px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .notImplemented3 {
@@ -255,6 +256,8 @@ h1 {
   height: 116px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
+
 }
 
 .notImplemented4 {
@@ -265,6 +268,8 @@ h1 {
   height: 116px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
+
 }
 
 .notImplemented5 {
@@ -275,6 +280,8 @@ h1 {
   height: 116px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
+
 }
 
 .notImplemented6 {
@@ -285,6 +292,8 @@ h1 {
   height: 116px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
+
 }
 
 .notImplemented7 {
@@ -295,6 +304,8 @@ h1 {
   height: 116px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
+
 }
 
 .notImplemented8 {
@@ -305,6 +316,8 @@ h1 {
   height: 116px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
+
 }
 
 .notImplemented9 {
@@ -315,6 +328,8 @@ h1 {
   height: 116px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
+
 }
 
 .notImplemented10 {
@@ -325,6 +340,8 @@ h1 {
   height: 130px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
+
 }
 
 .notImplemented11 {
@@ -335,6 +352,9 @@ h1 {
   height: 181px;
   border: 0;
   border-radius: 20px;
+  cursor: pointer;
+  background-color: peachpuff;
+  opacity: 0.8;
 }
 
 
