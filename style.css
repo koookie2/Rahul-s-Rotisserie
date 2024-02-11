@@ -143,7 +143,7 @@ body {
 
 
 .side-nav {
-  margin-top: 7px;
+  margin-top: 35px;
   height: 92.5%;
   width: 0;
   border-top-right-radius: 50px;
@@ -152,16 +152,46 @@ body {
   z-index: 1;
   background-color:rgb(194, 106, 19);
   overflow-x: hidden;
-  padding-top: 60px;
+  /* padding-top: 20px; */
   transition: 0.5s;
   /* box-shadow: 5px 4px rgb(170, 144, 122); */
+
+}
+
+.side-nav h1 {
+  display: flex;
+  justify-content: center;
+  /* margin-top: -50px; */
+  margin-left: -20px;
+  font-family: Bowlby One SC;
+  font-size: 35px;
+  width: 110%;
+  color: peachpuff;
+  transition: 0.5;
+  margin-bottom: 50px;
 }
 
 .side-nav img {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
+  margin-left: 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  width: 50%;
+}
+.side-nav p {
+  font: Bowlby One SC;
   font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+  color: peachpuff;
+  margin-left: 10px;
+  margin-top: 100px;
+
+}
+p {
+  text-shadow: 2px 2px black;
+}
+
+h1 {
+  text-shadow: 2px 2px black;
+
 }
