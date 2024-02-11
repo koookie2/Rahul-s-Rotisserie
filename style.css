@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url('background2.png');
+  background-image: url('background.png');
   background-size: 100vw;
   background-repeat: no-repeat;
 }
@@ -219,6 +219,7 @@ h1 {
   border: 2px solid rgba(0, 0, 0, 0.8);
 }
 
-.shelves div img {
+.shelves img {
   opacity: 0;
+  height: 29%;
 }
