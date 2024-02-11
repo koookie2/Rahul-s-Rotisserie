@@ -90,6 +90,28 @@
             </div>
         </div>
 
-        <script src="counter.js"></script>
+         <script src="counter.js">
+          document.getElementById('main_button').addEventListener('click', function() {
+              // Create pasta element
+              var pasta = document.createElement('div');
+              pasta.className = 'pasta';
+              
+              // Randomize position within the window
+              var x = Math.random() * (window.innerWidth - 50); // Adjust for pasta size
+              var y = Math.random() * (window.innerHeight - 50); // Adjust for pasta size
+              
+              // Set position
+              pasta.style.left = x + 'px';
+              pasta.style.top = y + 'px';
+              
+              // Add pasta to the document
+              document.body.appendChild(pasta);
+              
+              // Remove pasta element after a delay (optional)
+              setTimeout(function() {
+                  document.body.removeChild(pasta);
+              }, 2000); // Adjust the delay as needed
+          });
+          </script>
   </body>
 </html>
